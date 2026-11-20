@@ -34,7 +34,7 @@ jobs:
             
       - name: 🐍 安装 Python 依赖
         run: |
-          pip install seleniumbase
+          pip install seleniumbase opencv-python-headless numpy
           seleniumbase install chromedriver
           
       - name: 🛡️ 启动 GOST 代理转发
